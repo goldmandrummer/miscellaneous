@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html class="isResponsive isTourNotShown isTourNotActive isSliderNotShown isNotHome memberABSearch" lang="en">
+    <head>
+        <script>
+    var sbGlobals = {
+        EXTERNAL_CONTENT_ROOT: '//www.sbx-media.com/img/',
+        EXTERNAL_CONTENT_PATHS: {"POLLS_MAIN":"polls\/m","POLLS_ACTION":"polls\/a","SWAGSTAKES_SMALL":"swagstakes\/small","CARD":"card\/0","NOTIFICATIONS_FEATURED_CARD":"notifications\/fc","ON_BOARDING_MAIN":"onboarding\/m","SHOP_MERCHANT_BACKGROUND_LARGE":"shop\/mbi","NOTIFICATIONS_PREMIUM_BANNER":"notifications\/pb","COLLECTOR_BILLS":"bills\/0","SHOP_MERCHANT_BACKGROUND_SMALL":"shop\/smbi","PRIZES_LARGE":"prizes\/large","SHOP_MERCHANTS":"shop\/ms","SWAGSTAKES_MEDIUM":"swagstakes\/medium","SIMPLE_SIGNUP_FORM":"ssu\/f"},
+        PROFILE_HOST:             '//profileimages-cdn2.sbx-cdn.com',
+        PROFILE_UPLOADER_HOST:     '//upload.profileimages.swagbucks.com',
+        EMAIL_INVITES_AMOUNT: 10
+    };
+</script>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/global-includes/js/sbglobals.pmin.js?v=29113917-327a"></script>
+        <link rel="search" href="http://www.swagbucks.com/open-search-CHROME.xml" type="application/opensearchdescription+xml" title="Swagbucks search and get rewarded">
+        <script>
+function setLanguage(languageCode) {
+    if(typeof Localize == 'undefined') {
+        var localizejs = document.createElement('script');
+        localizejs.onload = initLocalizeJs;
+        localizejs.src = '//cdn.localizejs.com/localize.js';
+        document.getElementsByTagName('head')[0].appendChild(localizejs);
+
+        function initLocalizeJs() {
+            !function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off"],t=0;t
+            <e.length;t++)a.Localize[e[t]]=function(){}}}(window);
+            Localize.initialize({
+               key: 'MldiexN2caLe9',
+               rememberLanguage: true
+            });
+            Localize.on("setLanguage", function() {
+            	var langCode = Localize.getLanguage();
+            	localStorage.setItem("languageCode", langCode);
+                
+                    $.post('/?cmd=ac-jx-locale', {locale: localeBitMap[langCode]}, function(data) {});
+                
+            });
+            Localize.setLanguage(languageCode);
+        }
+    } else {
+        Localize.setLanguage(languageCode);
+    }
+}
+function prepareElesForLocalize( $eles ) {
+    if ( typeof Localize !== 'undefined' && Localize.loaded ) {
+        for ( var i = 0, len = $eles.length; i < len; i++ ) {
+            var $this = $eles.eq( i );
+            $this.html( function () {
+                return $this.html().replace(
+                    /(\d+\s?SB)|(\d+\:?)/g, function ( text ) {
+                        return '
+                <span notranslate>' + text + '</span>';
+                    }
+                );
+            });
+        }
+    }
+}
+var languageCode = "";
+var localeBitMap = {};
+var localeLanguageMap = {};
+
+    if(languageCode && languageCode != "en") {
+    	setLanguage(languageCode);
+    }
+            </script>
+            <style>
+       #localize-widget {
+         display: none !important;
+       }
+    </style>
+        </script>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <meta charset="UTF-8">
+        <title>wat - Swagbucks Search</title>
+        <meta name="Author" content="">
+        <meta name="keywords" content="">
+        <meta name="description" property="og:description" content="Earn rewards and free stuff by searching and shopping online, answering surveys, and more at Swagbucks.com, a customer loyalty rewards program. Be rewarded today.">
+        <meta property="og:title" content="wat - Swagbucks Search">
+        <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/gngocbkfmikdgphklgmmehbjjlfgdemm">
+        <link rel="apple-touch-icon" sizes="57x57" href="//app4-cdn2.sbx-cdn.com/images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="//app4-cdn2.sbx-cdn.com/images/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="//app4-cdn2.sbx-cdn.com/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="//app4-cdn2.sbx-cdn.com/images/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="//app4-cdn2.sbx-cdn.com/images/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="//app4-cdn2.sbx-cdn.com/images/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="//app4-cdn2.sbx-cdn.com/images/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="//app4-cdn2.sbx-cdn.com/images/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="//app4-cdn2.sbx-cdn.com/images/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="//app4-cdn2.sbx-cdn.com/images/favicon-32x32.png?v=2" sizes="32x32">
+        <link rel="icon" type="image/png" href="//app4-cdn2.sbx-cdn.com/images/android-chrome-192x192.png?v=2" sizes="192x192">
+        <link rel="icon" type="image/png" href="//app4-cdn2.sbx-cdn.com/images/favicon-96x96.png?v=2" sizes="96x96">
+        <link rel="icon" type="image/png" href="//app4-cdn2.sbx-cdn.com/images/favicon-16x16.png?v=2" sizes="16x16">
+        <link rel="canonical" href="http://www.swagbucks.com/"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/projects/search/web-results-v3.pmin.css?v=16051947-cb9a"/>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/js/form.pmin.js?v=27113426-45fa"></script>
+        <meta name="hasresults" content="false" />
+        <meta name="pinterest" content="nopin" />
+        <style>#topBarInner{width:100% !important} #sbGlobalNavContent {width: 99% !important;}</style>
+        <script>var topbarDontShowSearch = true;</script>
+        <meta name="robots" content="noindex" />
+    </head>
+    <body>
+        <script src="//csr.inspsearchapi.com/lib/infospace.search.js"></script>
+        <script>var tbVersion = 3;</script>
+        <script>
+    dataLayer = [{
+        'sba': 21,
+        'sbg': 1,
+        'sbmid': 18047531,
+        'sbco': 'USA',
+        'sbcmp': 0,
+        'sblocid': 1,
+        'sbmd5lce': '0339aa5e8248fffddefbf952f098082f',
+        'sbsha1lce': 'f37d86cd0ff799b93b585b47d687797200867583',
+        'sbsha256lce': '469636eabc117820d7b119215130af4e39ee68e8b81ac0d592c06a33ec4cae78',
+        'sbmd5uce': 'adaf301b04445f4382ddd39ffcce193f',
+        'sbsha1uce': '98d8358674c85b50950729706a8ab461b3f2b8de',
+        'sbsha256uce': 'b84d9e953ab58b47bdb45c335acc03c292a10b0e10ff7a45f02a2ff3b95a3f04',
+        'sbsh1lced': '526472e87484a6e5cbddc84f4c4c21c477919045'
+        }];
+</script>
+        <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PTN2DB');
+</script>
+        <script>
+!function(){var e=document.createElement("script"),t=document.getElementsByTagName("script")[0];e.src="//d3cxv97fi8q177.cloudfront.net/foundation-A16748-0e7c-42e9-b1a4-493411a508171.min.js",e.async=!0,e.id="irfOuterTag",t.parentNode.insertBefore(e,t)}();
+</script>
+        <noscript>
+            <img src="//tl.r7ls.net/unscripted/16748" width="1" height="1" alt="" style="display:none;">
+        </noscript>
+        <script>var sbGlbMember = 18047531;</script>
+        <script>
+    var profileImgHstGlbl = '//profileimages-cdn2.sbx-cdn.com';
+    var beta5 = true;
+    var sbGlbl = {
+            gAppContent : "//app4-cdn2.sbx-cdn.com"
+        ,   intPageId : 102
+        ,   userBrowserType: {
+                browserName: 'CHROME'.toLowerCase(),
+                browserVersion: ''
+            }
+        ,   locationId : 1
+        ,   location : {
+                    codes : {
+                        US : 1,
+                        CA : 2,
+                        UK : 4,
+                        AU : 8,
+                        IE : 16,
+                        IN : 32,
+                        DE : 64,
+                        FR : 128
+                    }
+                ,   current : {
+                            id : 1
+                        ,   supports : {
+                                    coupons : 1
+                                ,   dailyDeals : 1
+                                ,   shopEarn : 1
+                                ,   noso : 1
+                                ,   sbtv : 1
+                                ,   nCrave : 1
+                            }
+                        ,   currency : {
+                                    name : 'Dollar'
+                                ,   symbol : '$'
+                                ,   sbCashValue : 0.01
+                            }
+                        ,   domains : {
+                                    facebook: 'www.facebook.com/Swagbucks'
+                                ,   blog: 'blog.swagbucks.com'
+                            }
+                    }
+            }
+        ,   EMAIL_INVITES_AMOUNT : 10
+        ,   strGaTracker : 'gauniversal'
+        ,   strGaTrackerPrepend : 'gauniversal.'
+    };
+    var tbCurMemPoints = 107;
+    var tbCurMemPointsSbx = 107.00;
+</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1" height="1" style="position:absolute">
+            <param name="movie" value="//app4-cdn2.sbx-cdn.com/content/compliance/uid.swf">
+            <param name="flashvars" value="memberID=18047531&fid=1aa485ffc9f02cb2&hash=04ac6c1b882feb96c42d4df24248e0da">
+            <param name="wmode" value="transparent">
+            <embed type="application/x-shockwave-flash" src="//app4-cdn2.sbx-cdn.com/content/compliance/uid.swf" flashvars="memberID=18047531&fid=1aa485ffc9f02cb2&hash=04ac6c1b882feb96c42d4df24248e0da" width="1" height="1" wmode="transparent"/>
+        </object>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/skin-02/js/top-functions-v2.pmin.js?v=10021120-138a"></script>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/global-includes/js/helpers-new.pmin.js?v=8050250-50aa"></script>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/shared/css/generic-v3.pmin.css?v=12040332-b50a"/>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/components/header/top-bar/top-bar-v7.pmin.css?v=8050249-270a"/>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/global-includes/css/jquery-plugins.pmin.css?v=25072809-50ea"/>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/global-includes/css/sbPop.pmin.css?v=21043204-dd3a"/>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/global-includes/css/buttons.pmin.css?v=30042801-f1ca"/>
+        <div id="fadeCover"></div>
+        <div id="fadeCoverLogin"></div>
+        <div id="topBarSpacer"></div>
+        <div id="sbGlobalNavDecoration"></div>
+        <header id="sbGlobalNav" class="">
+            <div id="sbGlobalNavDecorationTourFix"></div>
+            <div id="sbGlobalNavContent">
+                <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/components/header/responsive-header.pmin.css?v=16024553-e6fa"/>
+                <section id="sbLogoContainer" class="sbTopBarSection">
+                    <a href="/" id="sbLogo" class="">Swagbucks</a>
+                    <button id="sbMainNavToggle" class="sbCta">
+                        <span id="sbMainNavToggleCopy" class="sbVisuallyHidden">Toggle main menu</span>
+                    </button>
+                </section>
+                <section id="sbSearchToggleContainer" class="sbTopBarSection">
+                    <button id="sbSearchToggle" class="sbCta sbColor1 sbSearchToggleOnTiny">
+                        <span id="sbSearchToggleCopy" class="sbVisuallyHidden">Toggle search form</span>
+                    </button>
+                </section>
+                <section id="sbSearchContainer" class="topbarSearchContainer sbTopBarSection">
+                    <button id="sbSearchToggleCopy2" class="sbSearchToggleOnTiny sbCta">
+                        <span class="sbVisuallyHidden">Close search form</span>
+                    </button>
+                    <div id="sbSearchMenu" class="sbMenu">
+                        <div id="sbSearchMenuWrapper" class="sbMenuWrapper">
+                            <div id="sbSearchMenuInnerWrapper" class="sbMenuInnerWrapper">
+                                <div id="sbGlobalNavSearch">
+                                    <span id="sbGlobalNavSearchSubmit" class="topbarIcon" onclick="topbarSearch.submit()"></span>
+                                    <span id="sbGlobalNavSearchCurrentSelection" hidden></span>
+                                    <div id="sbGlobalNavSearchInputContainer" class="topbarSearchInputContainer">
+                                        <input type="text" id="sbGlobalNavSearchInputWeb" class="sbGlobalNavSearchInput" data-placeholder="Search & earn" data-searchType="web" placeholder="Search the web & earn" value="wat" autocomplete="off" hidden>
+                                        <input type="text" id="sbGlobalNavSearchInputShop" class="sbGlobalNavSearchInput" data-placeholder="Search & earn" data-searchType="shop" placeholder="Search stores and coupons" value="" autocomplete="off" hidden>
+                                        <input type="text" id="sbGlobalNavSearchInputRewards" class="sbGlobalNavSearchInput" data-placeholder="Search & earn" data-searchType="rewards" placeholder="Search gift cards" value="" autocomplete="off" hidden>
+                                        <ul id="sbGlobalNavSearchSelector" hidden>
+                                            <li data-searchType="web">WEB</li>
+                                            <li data-searchType="shop">SHOP</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="sbGlobalNavSearchSuggestCont" hidden>
+                                    <ul></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+        var blockedSrchTrm = 'wat'
+        ,   searchVerticalType = 'w'
+        ,   inptCnt = 1
+        ,   txtElements = [ { txt: 'sawInput', btn: 'sawSubmit' } ]
+        ,   searchPlaceholder = "Search & earn"
+        ,   hasYahooSrch = true
+        ;
+
+        sbGlbl.strLocationCode = 'US';
+    </script>
+                    <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/header/top-bar/acp-settings-v7.pmin.js?v=18080631-4a0a"></script>
+                    <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/shared/acp.v2.09.pmin.js?v=18080631-4a0a" async="async"></script>
+                </section>
+                <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/components/header/member/member-v7.pmin.css?v=22092629-2c9a"/>
+                <section id="sbSwagCodeContainer" class="sbTopBarSection">
+                    <h1 id="sbSwagCode">
+                        <span id="sbSwagCodeHeadingInner">Swag Code</span>
+                    </h1>
+                    <button id="sbSwagCodeToggle" class="sbToggle sbCta">
+                        <span id="sbSwagCodeToggleCopy" class="sbToggleCopy">Toggle Swag Code dropdown</span>
+                    </button>
+                    <div id="sbSwagCodeMenu" class="sbMenu">
+                        <div class="sbMenuWrapper">
+                            <div class="sbMenuInnerWrapper">
+                                <div id="sbGlobalNavSwagCodeDropdown">
+                                    <div id="sbGlobalNavSwagCodeForm">
+                                        <input id="sbGlobalNavSwagCodeInput" placeholder="Enter Swag Code"/>
+                                        <div id="tbScMsgWrap"></div>
+                                        <button id="sbGlobalNavSwagCodeSubmit" class="sbCta sbBgColor1" onclick="sbGlbl.sbTb.redeemSc();">Redeem</button>
+                                    </div>
+                                    <p class="sbSwagCodeInfoText">
+                        We post Swag Codes, our fun Reward phrases that pay often. Find them on our site, Facebook, Twitter, Blog, and more. Cash in the codes here for SB.
+                    </p>
+                                    <p id="sbSwagCodeInfoText2" class="sbSwagCodeInfoText">
+                        Learn More About 
+                                        <a href="http://blog.swagbucks.com/2012/02/how-do-i-find-a-swag-code.html">Swag Codes</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="sbDailyGoalContainer" class="notActive sbTopBarSection">
+                    <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/global-includes/css/calendar.pmin.css?v=18080631-4a0a"/>
+                    <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/components/header/member/daily-goal-v7.pmin.css?v=26120917-64ea"/>
+                    <section id="sbDailyGoalOptIn">
+                        <div id="sbDailyGoalOptInWrapper" class="sbMenu">
+                            <div id="sbDailyGoalOptInInner">
+                                <button id="sbDailyGoalOptInCta" class="sbCta1 sbColor1">Activate</button>
+                                <span id="sbDailyGoalOptInText">Get Your Daily Goal
+                                    <br />& Earn Bonus SB
+                                </span>
+                            </div>
+                        </div>
+                        <button id="sbDailyGoalOptInToggle" class="sbToggle sbCta">
+                            <span id="sbDailyGoalOptInToggleCopy" class="sbToggleCopy">Toggle Daily Goal dropdown</span>
+                        </button>
+                    </section>
+                    <section id="sbDailyGoalEnabled">
+                        <h1 id="sbDailyGoalEnabledText1">Daily Goal</h1>
+                        <p id="sbDailyGoalEnabledText2">
+        Earn 
+                            <span id="sbDailyGoalTodaysGoal"></span> SB &
+        Get
+                            <span id="sbDailyGoalTodaysBonus"></span> SB
+                        </p>
+                        <button id="sbDailyGoalToggle" class="sbToggle sbCta">
+                            <span id="sbDailyGoalToggleCopy" class="sbToggleCopy">Toggle Daily Goal dropdown</span>
+                        </button>
+                    </section>
+                    <div id="sbDailyGoalMenu" class="sbMenu isBonusClaimable">
+                        <div class="sbMenuWrapper">
+                            <div id="sbDailyGoalMenuInnerWrapper" class="sbMenuInnerWrapper">
+                                <section id="sbDailyGoal">
+                                    <div class="dgOverlay"></div>
+                                    <div id="dailyGoalContent">
+                                        <div id="dailyGoalUpperSec">
+                                            <header id="dailyGoalTitleBar">
+                                                <h1 id="dailyGoalTitleBarText">Daily Goal</h1>
+                                                <div id="dailyGoalAux">
+                                                    <span id="dailyGoalDate">7/1/16</span>
+                                                    <button id="dailyGoalChooseDayWrap" class="sbCta">
+                                                        <span id="sbDailyGoalCalendarToggleText">Toggle calendar</span>
+                                                    </button>
+                                                </div>
+                                            </header>
+                                            <div id="dailyGoalCalendarContainer" class="dailyGoalSec dailyGoalCalendar"></div>
+                                        </div>
+                                        <div id="dailyGoalOuter">
+                                            <div id="myDailyGoalContainer">
+                                                <div id="dailyGoalInnerWrap">
+                                                    <div id="dgChartEarned">
+                                                        <div id="youEarnedTitle">SB Earned Today</div>
+                                                        <div id="dgChartEarnedAmt">0</div>
+                                                    </div>
+                                                    <div id="dgMeterWrap">
+                                                        <div id="dgMeterDivider"></div>
+                                                        <div id="dgMeterDGoal" class="dgMeterProgressBar">
+                                                            <div id="dgMeterDGoalComplete"></div>
+                                                        </div>
+                                                        <div id="dgMeterPGoal" class="dgMeterProgressBar">
+                                                            <div id="dgMeterPGoalComplete"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="goalInfoContainer">
+                                                        <div id="goalInfoTip"></div>
+                                                        <div id="goalInfoViewport">
+                                                            <div id="goalInfoWrap">
+                                                                <div class="goalInfoInnerWrap" id="dgChartStatDGoal">
+                                                                    <div class="dgChartStatRow">
+                                                                        <div class="dgStatTitle" id="goalOneGoalTitle">Goal</div>
+                                                                        <div class="dgStatValue" id="goalOneSbAmt">0</div>
+                                                                    </div>
+                                                                    <div class="dgChartStatRow statRowLast">
+                                                                        <div class="dgStatTitle" id="goalOneBonusTitle">Bonus</div>
+                                                                        <div class="dgStatValue" id="bonusOneSbAmt">0</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="goalInfoInnerWrap" id="dgChartStatPGoal">
+                                                                    <div class="dgChartStatRow">
+                                                                        <div class="dgStatTitle">Total Goal</div>
+                                                                        <div class="dgStatValue" id="goalTwoSbAmt">0</div>
+                                                                    </div>
+                                                                    <div class="dgChartStatRow statRowLast">
+                                                                        <div class="dgStatTitle">Total Bonus</div>
+                                                                        <div class="dgStatValue" id="bonusTwoSbAmt">0</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="timerSection">
+                                                    <span id="timeLeftTitle">Time left to complete:</span>
+                                                    <span id="timerSectionInnerWrap">
+                                                        <span class="counterSec">
+                                                            <span>0</span>
+                                                            <!--
+                                        -->
+                                                            <span>0</span>
+                                                            <!--
+                                    -->
+                                                        </span>:
+                                                        <!--
+                                    -->
+                                                        <span class="counterSec">
+                                                            <!--
+                                        -->
+                                                            <span>0</span>
+                                                            <!--
+                                        -->
+                                                            <span>0</span>
+                                                            <!--
+                                    -->
+                                                        </span>:
+                                                        <!--
+                                    -->
+                                                        <span class="counterSec">
+                                                            <!--
+                                        -->
+                                                            <span>0</span>
+                                                            <!--
+                                        -->
+                                                            <span>0</span>
+                                                        </span>
+                                                    </span>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <button id="toggleWinningStreaksBtn" class="sbCta" onclick="sbGlbl.sbDailyGoal.toggleStreaks();">
+                            Show My Winning Streaks
+                        </button>
+                                            <a href="/daily-goal-bonus" id="sbDailyGoalClaimBonusCta" class="sbCta sbBgColor1">
+                                                <span id="sbDailyGoalClaimBonusCtaText1">
+                                                    <span isolate>June</span> Bonus
+                                                </span>
+                                                <span id="sbDailyGoalClaimBonusCtaText2">
+                                Check your status
+                            </span>
+                                                <span id="sbDailyGoalClaimBonusCtaText3">
+                                                    <span notranslate>15</span>
+                                Days Remaining
+                                                </span>
+                                            </a>
+                                            <div id="dgWin">
+                                                <div id="dgWinTop">
+                                                    <div id="dgControl">
+                                                        <span class="dgControlBtn dgControlBk" id="dgControlBk"></span>
+                                                        <!--
+                                 -->
+                                                        <span class="dgControlBtn dgControlFwd" id="dgControlFwd"></span>
+                                                    </div>
+                                                    <div class="dgTitle">
+                                    My Winning Streaks
+                                </div>
+                                                    <div id="dgSubtitle" class="dgSubtitle">
+                                    July 2016
+                                </div>
+                                                    <div id="streaksBaseOff">Streaks are earned by reaching your first daily goal.</div>
+                                                </div>
+                                                <div id="dgIntContainerViewport">
+                                                    <div id="dgIntContainerOuter">
+                                </div>
+                                                </div>
+                                                <div id="dgNone" style="display: none;">
+                                No streaks available in
+                            </div>
+                                            </div>
+                                        </div>
+                                        <div id="dgOptInTip" class="sbTooltip tipright">
+                                            <span id="dgOptInTipClose"></span>
+                                            <div class="dgOptInTipIcon"></div>
+                                            <!--
+                     -->
+                                            <div class="dgOptInTipText">
+                                                <div class="dgOptInTipTitle">You've successfully activated your Daily Goal Meter!</div>
+                                                <p>Now that you can easily keep track of your daily earnings, make sure to earn your daily bonus every day.</p>
+                                                <p>
+                                                    <b>Bigger bonuses</b> are earned by completing your 7 day, 14 day, 21 day, and month goals.
+                                                </p>
+                                                <p>Streaks are earned by consecutively reaching your first daily goal.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+        var dgProps = {
+            startMonth: 6,
+            startYear: 2016,
+            serverNow: new Date(2016,7,1,17,42,35,7),
+            today: new Date('2016/7/1'),
+            startHistoryDay: {},
+            lastDayOfMonth: 31,
+            hasDailyGoal: false,
+            personalGoal: 0,
+            personalBonus: 0,
+            staticGoal: 0,
+            staticBonus: 0,
+            streakGoal: 0
+        }
+    </script>
+                    <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/global-includes/js/calendar.pmin.js?v=18080631-4a0a"></script>
+                    <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/header/member/daily-goal-v7.pmin.js?v=18080631-4a0a"></script>
+                </section>
+                <section id="sbReferContainer" class="sbTopBarSection">
+                    <a href="/invite" id="sbRefer">Refer & Earn</a>
+                </section>
+                <section id="sbInboxContainer" class="sbTopBarSection">
+                    <a href="/g/inbox" id="sbInbox">Inbox</a>
+                </section>
+                <section id="sbUserMenuContainer" class="sbTopBarSection">
+                    <section id="sbBalanceContainer">
+                        <span id="sbBalance">
+                            <span id="sbBalanceAmount">107</span> SB
+                        </span>
+                        <button id="sbBalanceRefresh" class="sbCta">
+                            <span id="sbBalanceRefreshText">Refresh</span>
+                        </button>
+                    </section>
+                    <button id="sbUserMenuToggle" class="sbCta">
+                        <span id="sbUserMenuToggleCopy">Toggle user menu</span>
+                    </button>
+                    <nav id="sbUserMenu" class="sbMenu">
+                        <div class="sbMenuWrapper">
+                            <div class="sbMenuInnerWrapper">
+                                <h6 id="sbUser">
+                                    <span id="sbUserImg" style="background-image: url(//app4-cdn2.sbx-cdn.com/content/components/header/user-icon.jpg)"></span>
+                                    <span id="sbUserSwagNameWrapper">
+                                        <span id="sbUserSwagNameCaption">Swag Name</span>
+                                        <span id="sbUserSwagName">Michael</span>
+                                    </span>
+                                </h6>
+                                <ul id="sbUserMenuList" class="sbMenuList">
+                                    <li>
+                                        <a href="/account/summary" class="sbMenuCta">My SB</a>
+                                    </li>
+                                    <li>
+                                        <a href="/rewards-store" class="sbMenuCta">Redeem SB</a>
+                                    </li>
+                                    <li>
+                                        <a href="/account/shop-ledger" class="sbMenuCta">My Shop & Earn</a>
+                                    </li>
+                                    <li>
+                                        <a href="/account/swagup" class="sbMenuCta">My Swag Ups</a>
+                                    </li>
+                                    <li>
+                                        <a href="/account/giftcards" class="sbMenuCta">My Gift Cards</a>
+                                    </li>
+                                    <li>
+                                        <a href="/account/order-status" class="sbMenuCta">Order Status</a>
+                                    </li>
+                                    <li>
+                                        <a href="/account/referrals" class="sbMenuCta">My Referrals</a>
+                                    </li>
+                                    <li>
+                                        <a href="/account/swagstakes" class="sbMenuCta">My Swagstakes</a>
+                                    </li>
+                                    <li>
+                                        <a href="/account/settings" class="sbMenuCta">My Settings</a>
+                                    </li>
+                                    <li>
+                                        <button id="sbLogOutCta" class="sbMenuCta sbCta">Log Out</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div id="sbLoaderContainer" hidden aria-hidden="true">
+                        <div id="sbLoader">Loading...</div>
+                    </div>
+                </section>
+                <aside class="tiptop toolbarTip" id="toolbarTip">
+                    <div class="toolbarTipContent">
+                        <div class="toolbarTipText">
+                            <span class="toolbarTipTextInner">You've earned 
+                                <span id="tbSbEarnedPoints"></span>
+                            </span>
+                        </div>
+                        <!--
+     -->
+                        <div class="sbBlock">
+                            <span id="tbSbMsgContainer"></span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </header>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/header/top-bar/jquery-plugins.pmin.js?v=7065500-350a"></script>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/banner/banner-v2.pmin.js?v=1042556-732a"></script>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/components/banner/banner-v2.pmin.css?v=1042556-732a"/>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/header/top-bar/top-bar-v7.pmin.js?v=22092629-2c9a"></script>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/header/top-bar/jquery.tmpl.pmin.js?v=7065500-350a"></script>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/js/global/search-functions-v8.pmin.js?v=28042054-d67a"></script>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/projects/search/results-09.pmin.css?v=26120917-64ea"/>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/projects/search/search-updated.pmin.css?v=27041630-eb2a"/>
+        <script>
+
+    sbGlbl.tourVisible = false;
+
+</script>
+        <script>
+    var blockedSrchTrm = 'wat';
+    
+</script>
+        <script>
+    //topbar
+    if(tbVersion == 2) {
+        var searchContTop;
+        function checkShowTopbarSearch(){
+            searchContTop = $('#field').offset().top - $('#field').height(); 
+            if(searchContTop < $(window).scrollTop()){
+                showTopbarSearch();
+            }else{
+                hideTopbarSearch();
+            }
+        }
+    }
+
+        </script>
+        <script>function cc(c){c.href=c.href+"&ncc=0"} function cc2(c,h){c.href=h} var _0xa2a0=["\x6D\x73\x69\x65","\x62\x72\x6F\x77\x73\x65\x72","\x76\x65\x72\x73\x69\x6F\x6E"];if(!($[_0xa2a0[1]][_0xa2a0[0]]&&parseInt($[_0xa2a0[1]][_0xa2a0[2]])==7)){var r='';eval(function(p,a,c,k,e,d){while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+c+'\\b','g'),k[c])}}return p}('3(1.6!=1){$.7({11:"/?4=8-10-3&0="+0});2=2=\'/?4=5-9\'}',10,12,'r|window|location|if|cmd|gn|top|ajax|ct|403|jx|url'.split('|')))}
+    
+        var widthMaxWidth = 1146;
+        var widthOffset = 193 + 228 + 8;
+        var innerRsultsMinWidth = 600;
+        var imageVideoPadding = 3;
+        var imageVideoMargin = ' 6px';
+        var adjustImageVideoLeft = false;
+    
+    var widthMinWidth = 1008;
+    var startWinWidth = $(window).width();
+    if(startWinWidth < widthMinWidth){
+        document.write('
+            <style>#searchResultWebContainer #innerResults{width:' + innerRsultsMinWidth + 'px} #innerResults, body > .prodegeFooter, #pageControlOuterCont{margin-left: 200px} #leftResultsCont{margin-left: 0px}</style>');
+    }else if(startWinWidth< widthMaxWidth){
+        var marginOffset = (startWinWidth - widthMinWidth)/((widthMaxWidth-widthMinWidth)/28);
+        document.write('
+            <style>#searchResultWebContainer #innerResults{width:' + (startWinWidth - widthOffset) + 'px} #innerResults, body > .prodegeFooter, #pageControlOuterCont{margin-left: ' + (200 + marginOffset) + 'px} #leftResultsCont{margin-left: ' + marginOffset + 'px}</style>');
+    }
+    var congratsHere = false;
+        </script>
+        <div id="general-tmp-container">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" class="general-tmp-tbl">
+                <tr>
+                    <td>
+                        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/js/jquery.tinycarousel.pmin.js?v=5070522-56ea"></script>
+                        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/shared/jquery.touchSwipe.pmin.js?v=27041630-eb2a"></script>
+                        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/js/jquery.ellipsis.pmin.js?v=15073150-01da"></script>
+                        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/shared/jquery.isonscreen.pmin.js?v=29040318-f6da"></script>
+                        <div id="termsPopupWrap" class="sePopupWrap">
+                            <div class="sePopupCloseBtn" onclick="closeTermsPop()"></div>
+                            <div id="termsPopupTitle">
+                                <span id="termsPopupStoreName"></span> Special Terms.
+                            </div>
+                            <div id="termsPopupStoreCont">
+                                <div id="termsPopupStoreSubTitle" class="termsPopupSubTitle" style="display:none">Storewide Special Terms</div>
+                                <div id="termsPopupTermsWrap"></div>
+                            </div>
+                            <div id="termsPopupBtnWrap">
+                                <a class="termsPopupBtn termsPopupBtnBlue" href="#" id="termsPopupDetailsBtn" target="_blank" style="display: none;">View Coupons & Deals</a>
+                                <a class="termsPopupBtn termsPopupBtnWhite" href="#" id="termsPopupCtaBtn" target="_blank" style="display: none;"></a>
+                            </div>
+                        </div>
+                        <div class="sePopupWrap" id="cashBackPop">
+                            <div id="cashBackTitle">Earning SB is like getting Cash Back.</div>
+                            <div id="cashBackMiddleWrap">
+                                <div class="cashBackMiddleSec">
+                                    <span id="cashBackShopStore" class="cashBackIcon"></span>
+                                    <div class="cashBackMiddleInnerSec cashBackMiddleInnerInfo">
+                                        <div class="cashBackMiddleInnerSecTitle">Shop</div>
+                                        <span>Simply start your shopping at Swagbucks</span>
+                                    </div>
+                                </div>
+                                <div class="cashBackMiddleSec">
+                                    <span id="cashBackSB" class="cashBackIcon"></span>
+                                    <div class="cashBackMiddleInnerSec cashBackMiddleInnerInfo">
+                                        <div class="cashBackMiddleInnerSecTitle">Earn</div>
+                                        <span>Earn points (called SB) when you make a purchase</span>
+                                    </div>
+                                </div>
+                                <div class="cashBackMiddleSec">
+                                    <span id="cashBackGC" class="cashBackIcon"></span>
+                                    <div class="cashBackMiddleInnerSec cashBackMiddleInnerInfo">
+                                        <div class="cashBackMiddleInnerSecTitle">Redeem</div>
+                                        <span>Redeem your SB for free gift cards or PayPal Cash</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cashBackBottomWrap">
+                                <div id="cashBackBottomTitle">
+            100 SB = $1.00
+        </div>
+                                <div id="cashBackBottomDesc">
+            That's cash back in your wallet
+        </div>
+                                <button id="cashBackPopBtn" onclick="hideCashBackPop();" class="sbCta sbBgColor1">
+            Start Earning
+        </button>
+                            </div>
+                        </div>
+                        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/projects/search/results.pmin.js?v=27044929-100a"></script>
+                        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/projects/search/web-results-yahoo.pmin.css?v=16051947-cb9a"/>
+                        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/projects/search/search-updated.pmin.css?v=27041630-eb2a"/>
+                        <div id="resultsOuterCont">
+                            <div id="winner">
+                                <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/projects/search/congrats.pmin.css?v=16051946-5a0a"/>
+                                <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/projects/search/congrats-v5.pmin.js?v=16051946-5a0a"></script>
+                            </div>
+                            <div id="resultsContainer">
+                                <div id="topResultsCont">
+                                    <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/projects/search/search-top.pmin.css?v=16051947-cb9a"/>
+                                    <div class="topResultsItem" id="topNavSearchTypes" >
+                                        <div id="newSearchSafeFilter">
+                                            <label id="searchFrmSafeFilterLabel">
+                                                <span id="searchFrmSafeFilterCaption">SafeSearch Filter:</span>
+                                                <select id="searchFrmSafeFilter" onchange="updateSafeSearch(this.value);">
+                                                    <option value="p" selected="selected">Moderate</option>
+                                                    <option value="r" >Strict</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                        <ul>
+                                            <li id="tab_w">
+                                                <a href="#" onclick="searchTabSwitch('w'); return false;">
+                                                    <span></span>Web
+                                                </a>
+                                            </li>
+                                            <li id="tab_i">
+                                                <a href="#" onclick="searchTabSwitch('i'); return false;">
+                                                    <span></span>Images
+                                                </a>
+                                            </li>
+                                            <li id="tab_v">
+                                                <a href="#" onclick="searchTabSwitch('v'); return false;">
+                                                    <span></span>Video
+                                                </a>
+                                            </li>
+                                            <li id="tab_n" style="display: none;">
+                                                <a href="#" onclick="searchTabSwitch('n'); return false;">
+                                                    <span></span>News
+                                                </a>
+                                            </li>
+                                            <li id="tab_s" style="display: none;">
+                                                <a href="#" onclick="searchTabSwitch('s'); return false;">
+                                                    <span></span>Products
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <script>
+    var currentSearchType = "w";
+    setFormValue('sef', 1, 'search');
+    selectTab(currentSearchType);
+</script>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+$('.ads_top_title_big_dark_gray').last().remove();
+$('#resultsContainer').prepend(' \
+    
+                            <span class="ads_top_title_big_dark_gray ads_top_title_margin"> \
+        Yahoo! Results for "wat" \
+    </span>');
+                        </script>
+                        <script src="http://d.yimg.com/rj/v1/yhs-no-constructor.js"></script>
+                        <script>
+
+    document.getElementById("newSearchSafeFilter").style.display = 'inline-block';
+
+    var domain = 'https://search.yahoo.com';
+    var searchTerm = 'wat';
+    var type = 'search_6';
+    
+        var hasShResults = $('.shResult').length;
+        var hasSoResults = $('.soResult').length;
+        if(hasShResults){
+            type += '_se';
+        }
+        if(hasSoResults){
+            type += '_so';
+        }
+    
+    
+    var $yhsIframe = $('#resultsContainer');
+    createIframe('resultsContainer');
+    YHSInit();
+    
+    	$(".general-tmp-tbl").attr("style", "");
+    
+
+    YHS.events.on('queryChanged', 'updateSearchBar', function(data) {
+        updateQueryInUrl(data.query);
+    });
+    
+    function createIframe(parentElm) {
+        var iframe = document.createElement('iFrame');
+        iframe.setAttribute('src', getIframeSRC('p'));
+        iframe.setAttribute('id', 'yhs-if');
+        iframe.setAttribute('width', '100%');
+        
+            iframe.setAttribute('height', '2000');
+        
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('scrolling', "no");
+        document.getElementById(parentElm).appendChild(iframe);
+    }
+    
+    function YHSInit() {
+        YHS.init({
+            yahoo_domain: domain,
+            iframe_id: "yhs-if",
+            debug: false
+        });
+    }
+    function getIframeSRC(safeSearchParam) {
+        return domain + '/yhs/search?' +
+                     'p=' + encodeURIComponent(searchTerm) +
+                     '&hsimp=yhs-prodege_001' +
+                     '&hspart=prodege' +
+                     '&vm=' + safeSearchParam +
+                     '¶m1=18047531' +
+                     '¶m2=5099211' +
+                     '¶m3=0' +
+                     '¶m4=-1784258184' +
+                     '&type=' + type +
+                     '&searchmode=1';
+    }
+    function updateQueryInUrl(searchQuery){
+        setFormValue('q', searchQuery, 'search');
+        var searchForm = getForm('search');
+        if (searchForm != undefined) {
+            searchForm.submit();
+        }
+        return false;
+    }
+    function updatePageInUrl(PageNumber) {
+        setFormValue('p', searchQuery, 'search');
+        var searchForm = getForm('search');
+        if (searchForm != undefined) {
+            searchForm.submit();
+        }
+    }
+    
+	    function updateSafeSearch(newVal) {
+	        if (sbGlbMember != 0){
+	            $.post('/z/' + Math.random(), {cmd: "ac-jx-safe-search", val: newVal});
+	        }
+	        changeIframe(newVal);
+	    }
+	    function changeIframe(newVal){
+	            document.getElementById('yhs-if').setAttribute('src', getIframeSRC(newVal));
+	    }
+    
+</script>
+                    </td>
+                    <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/skin-02/css/template.pmin.css?v=20110242-107a"/>
+                    <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/swagbucks-com/sb-3/css/results.pmin.css?v=16041947-67ba"/>
+                    <style>
+	td .rightGutter {width: 310px; border-left: none;}
+</style>
+                    <td valign="top" id="rightGutterTd" >
+                        <div class="rightGutter" id="rightGutterDiv" >
+                            <div class="recWinnerCont">
+                                <style>
+				td .rightGutter {width: 264px; border-left: 1px solid #DDDDDD;}
+			</style>
+                                <style type="text/css">
+	td .rightGutter {width: 184px;}
+	td .rightGutter .recWinnerCont{padding: 0 10px 10px 10px;width: 184px;}
+	.recWinner .item{padding-top: 10px;padding-bottom: 10px;}
+	.secHeader .txt{left: 0;line-height: normal;}
+	.recWinner .item {max-width: 129px;}
+	.recWinner .profile{left: 0;}
+	.recWinner .item .time {line-height: normal;}
+	.recWinner .item .award{line-height: normal;}
+	.recWinner .item .winner {line-height: normal;}
+	.recWinner .profile{top: auto;}
+	
+	#rightGutterDiv{display:none} /*TEMP*/
+</style>
+                                <div class="secBorder navA recWinner" style="border: 0 none; display:none">
+                                    <h2 class="secHeader secHeaderA" style="background: none;color:#d14836;font-size: 14px;font-family: Arial;height: 14px;">
+                                        <span class="txt">Recent Search Winners</span>
+                                    </h2>
+                                    <script type="text/javascript">
+		function genProfilePicSm(img){
+			$(img).attr('onerror','').attr('src','//app4-cdn2.sbx-cdn.com/content/skin-02/images/defaults/profile-new.jpg');
+		}
+	</script>
+                                    <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/js/recent-award-timer.pmin.js?v=27103426-207a"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/projects/search/general-template.pmin.js?v=16051946-5a0a"></script>
+        <div id="pageControlOuterCont">
+            <!-- Don't know how to comment out JSP tags. if we need to go back to xml results remove the false-->
+            <div class="pageControl" style="display: none;">
+                <span class="lnkWord disabled" style="padding: 0 0px;" >Prev</span>
+                <span id="paginationPages">
+                    <span class="current"></span>
+                    <a href="javascript:gotoPage(1)"></a>
+                </span>
+                <span id="stopGoNext" class="lnkWord disabled" style="padding: 0 4px; display: none;">Next</span>
+                <a id="goNext"class="lnkWord" style="padding: 0 4px;" href="javascript:nextPage()">Next</a>
+            </div>
+            <script>
+    var onPage = 1;
+
+    function getPagination(maxResults) {
+        // This number represents the number of pages there will be.
+        maxResults = Math.ceil(((maxResults - 1) / 10) + 1);
+        if(onPage == 1) {
+            $('#paginationPages').append('
+                <span style="margin-right: 6px;" class="current" >1</span>');
+        } 
+        else {
+            $('#paginationPages').append('
+                <a style="margin-right: 6px;" href="javascript:gotoPage(1)">1</a>'); 
+        }
+        if(onPage >= maxResults){
+                $('#stopGoNext').show();
+                $('#goNext').hide();
+        }
+        var startPage = onPage > 5 ? onPage - 5 : 1;
+        for(var i = startPage + 1; i<= maxResults && i < startPage + 10; i++) {
+            if(i == onPage) {
+                $('#paginationPages').append('
+                <span class="current" style="margin-right: 6px;">'+i+'</span>');
+            } else {
+                $('#paginationPages').append('
+                <a style="margin-right: 6px;" href="javascript:gotoPage('+ i +')">'+i+'</a>');
+            }
+        }
+    }
+
+    function gotoPage(pageNumber) {
+        setOrUpdateQueryStringParameter('p', pageNumber);
+    }
+
+    function nextPage() {
+        gotoPage(onPage + 1)
+    }
+
+    function previousPage() {
+        gotoPage(onPage - 1)
+    }
+    // borrowed from http://stackoverflow.com/a/6021027 / https://gist.github.com/niyazpk/f8ac616f181f6042d1e0
+
+    function setOrUpdateQueryStringParameter(key, value) {
+      var uri = location.href;
+      // remove the hash part before operating on the uri
+      var i = uri.indexOf('#');
+      var hash = i === -1 ? ''  : uri.substr(i);
+      uri = i === -1 ? uri : uri.substr(0, i);
+
+      var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+      var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+
+      if (!value) {
+        // remove key-value pair if value is empty
+        uri = uri.replace(new RegExp("([?&]?)" + key + "=[^&]*", "i"), '');
+        if (uri.slice(-1) === '?') {
+          uri = uri.slice(0, -1);
+        }
+        // replace first occurrence of & by ? if no ? is present
+        if (uri.indexOf('?') === -1) uri = uri.replace(/&/, '?');
+      } else if (uri.match(re)) {
+        uri = uri.replace(re, '$1' + key + "=" + value + '$2');
+      } else {
+        uri = uri + separator + key + "=" + value;
+      }
+      location.href = uri + hash;
+    }
+            </script>
+            <div style="display:none;">
+                <div>
+                    <table cellspacing="0" cellpadding="0" class="srch">
+                        <tr>
+                            <td width="100%" class="td-1">
+                                <div style="position: relative;">
+                                    <input id="field2" type="text" name="q" value="wat" class="inputfield"  autocomplete="off" onkeypress="return enterEvent(event, 'search2()');" size="41" />
+                                    <div class="clear"></div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ds">
+                                    <div class="lsbb">
+                                        <input type="button" class="lsb" onclick="search2();" id="submit2" value="Search"/>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <script type="text/javascript">
+    function enterEvent(evt, func) {
+        evt = (evt) ? evt : event;
+        var charCode = (evt.charCode) ? evt.charCode : ((evt.keyCode) ? evt.keyCode : ((evt.which) ? evt.which : 0));
+        if(charCode == 13) {
+            eval(func);
+            return false;
+        }  
+    } 
+    function search2() {
+        location.href='/?t=w&q=' + document.getElementById('field2').value;        
+    }
+</script>
+            </div>
+        </div>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/components/footer/footer.pmin.css?v=26120917-64ea"/>
+        <div id="sbFooterWrap">
+            <div id="sbFooterContainer">
+                <div id="sbFooter">
+                    <section class="sbFooterSection">
+                        <h6 class="sbFooterHeading">Swagbucks</h6>
+                        <input class="fTitle" type="radio" id="sbFooterSwagbucks" name="tinyFooter">
+                        <label for="sbFooterSwagbucks" class="fTitle">Swagbucks</label>
+                        <ul id="footerSwagbucks" class="footerCol">
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com" title="Home">Home</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/g/about" title="About Us">About Us</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.prodege.com/careers.html" title="Careers" target="_blank">Careers</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://blog.swagbucks.com" title="Blog">Blog</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="javascript:showSignUp()" rel="nofollow" title="Newsletter">Newsletter</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/mobile" title="Mobile Apps">Mobile Apps</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/extension" title="Extension">Extension</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="sbFooterSection">
+                        <h6 class="sbFooterHeading">Ways to Earn</h6>
+                        <input class="fTitle" type="radio" id="sbFooterWaysToEarn" name="tinyFooter">
+                        <label for="sbFooterWaysToEarn" class="fTitle">Ways to Earn</label>
+                        <ul id="footerWaysToEarn" class="footerCol">
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/shop" title="Shop & Get Cash Back">Shop & Get Cash Back</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://search.swagbucks.com/" title="Search">Search</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/watch" title="Watch Videos">Watch Videos</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/games" title="Play Games">Play Games</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/g/paid-surveys" title="Answer Surveys">Answer Surveys</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/discover" title="Discover Deals">Discover Deals</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/ncrave" title="nCrave">nCrave</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="https://www.mygiftcardsplus.com" title="MyGiftCardsPlus" target="_blank">MyGiftCardsPlus</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="sbFooterSection">
+                        <h6 class="sbFooterHeading">Rewards</h6>
+                        <input class="fTitle" type="radio" id="sbFooterRewards" name="tinyFooter">
+                        <label for="sbFooterRewards" class="fTitle">Rewards</label>
+                        <ul id="footerRewards" class="footerCol">
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/rewards-store" title="Free Gift Cards">Free Gift Cards</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/swagstakes" title="Swagstakes">Sweepstakes</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="sbFooterSection">
+                        <h6 class="sbFooterHeading">Connect</h6>
+                        <input class="fTitle" type="radio" id="sbFooterConnect" name="tinyFooter">
+                        <label for="sbFooterConnect" class="fTitle">Connect</label>
+                        <ul id="footerConnect" class="footerCol">
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="//www.facebook.com/Swagbucks" target="_blank" rel="nofollow">Facebook</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink notranslate" href="https://twitter.com/swagbucks" target="_blank" title="Twitter" rel="nofollow">Twitter</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="https://www.youtube.com/user/swagbucks" target="_blank" title="YouTube" rel="nofollow">YouTube</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="sbFooterSection">
+                        <h6 class="sbFooterHeading">Information</h6>
+                        <input class="fTitle" type="radio" id="sbFooterMore" name="tinyFooter">
+                        <label for="sbFooterMore" class="fTitle">Information</label>
+                        <ul id="footerMore" class="footerCol">
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://help.swagbucks.com/entries/35691520-A-guide-to-the-Do-s-Don-ts-of-Swagbucks-" title="Do's and Don'ts">Do's and Don'ts</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://help.swagbucks.com" title="Help Center">Help Center</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/g/how-it-works" title="How it Works">How it Works</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/g/press" title="In the Press" target="_blank">In the Press</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="sbFooterSection">
+                        <h6 class="sbFooterHeading">Support</h6>
+                        <input class="fTitle" type="radio" id="sbFooterSupport" name="tinyFooter">
+                        <label for="sbFooterSupport" class="fTitle">Support</label>
+                        <ul id="footerSupport" class="footerCol">
+                            <li class="mobileEnabled sbFooterLink">
+                                <a class="sbFooterLink" href="http://help.swagbucks.com" title="Contact Us">Contact Us</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://advertise.swagbucks.com" title="Advertise With Us" target="_blank">Advertise With Us</a>
+                            </li>
+                            <li class="mobileEnabled sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/g/privacy" title="Privacy Policy">Privacy Policy</a>
+                            </li>
+                            <li class="mobileEnabled sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.swagbucks.com/g/terms" title="Terms of Use">Terms of Use</a>
+                            </li>
+                            <li class="sbFooterLink">
+                                <a class="sbFooterLink" href="http://www.prodege.com/contact.html" title="Press Inquiries">Press Inquiries</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div id="sbBoilerplateContainer">
+                <div id="sbBoilerplate">
+                    <div id="sbBPText">
+                        <p>Copyright © 2016 Prodege, LLC
+                            <br /> Swagbucks®-related trademarks including "Swagbucks®", "Swag Codes®", "Swagstakes®", "SwagButton", "SwagUp", "SB" and the Swagbucks logo are the property of Prodege, LLC; all rights reserved. Other trademarks appearing on this site are property of their respective owners, which do not endorse and are not affiliated with Swagbucks or its promotions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/footer/footer.pmin.js?v=26120917-64ea"></script>
+        <script>
+    
+    
+</script>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/global-includes/css/newsletter-signup-pop.pmin.css?v=26023840-2eda"/>
+        <div id="signUp" style="display: none;" class="newsletterPop">
+            <div class="inner">
+                <div class="close" onclick="hideSignUp();"></div>
+                <div class="ico"></div>
+                <div class="caption highlight1">Sign Up for the Newsletter</div>
+                <div class="hSmall">Newsletters are sent out twice a month and feature special offers, news and account updates about Swagbucks.com. 
+                    <a style="color:#2C6CB3" target="_blank" href="/?cmd=sb-privacy">Privacy Policy</a>
+                </div>
+                <p onkeypress="return signupEnter(event);">Verify your email Address</p>
+                <input class="email secBorder fltLft" id="emailNews" value="goldmandrummer@gmail.com"/>
+                <div class="btn btn1 fltLft" onclick="signup();" value="Join" id="sbNewsletterJoinBtn">Join!</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <script type="text/javascript">
+	function showSignUp() {
+		document.getElementById("fadeCover").style.display = "block";
+		document.getElementById("signUp").style.display = "block";
+		var hasMember = true;
+		if (hasMember){
+			$("#emailNews").attr("readOnly",true).css("border",0).css("padding",0).css("margin",0);
+			$("#signUp .inner p").html("Subscribe with the following email address:");
+		}		
+	}
+	function hideSignUp() {
+		document.getElementById("fadeCover").style.display = "none";
+		document.getElementById("signUp").style.display = "none";
+	}   
+	function getAjaxObjectTB() { 
+        var objXMLHttp=null
+            if (window.XMLHttpRequest) {
+                objXMLHttp=new XMLHttpRequest()
+            }
+            else if (window.ActiveXObject) {
+                objXMLHttp=new ActiveXObject("Microsoft.XMLHTTP")
+            }
+        return objXMLHttp
+    } 
+    
+    function signup() {
+        eml = document.getElementById("emailNews").value;
+        mb = 1;
+        if (eml == "") {
+            alert ("Please enter your Email Address");
+            return;
+        }
+        xmlHttp=getAjaxObjectTB()
+        if (xmlHttp==null) {
+            alert ("Your browser does not support HTTP Request, we are unable to process your your request at this time.\n\n" + 
+            'To signup contact us at info@prodege.com.');                
+            return;
+        }
+        url="/?cmd=gn-news-letter&cl=22&cp=1&mb=" + mb + "&eml=" + eml;
+        xmlHttp.onreadystatechange=checkSignup;
+        xmlHttp.open("GET",url,true);
+        xmlHttp.send(null);
+        hideSignUp();
+    }
+    function checkSignup() {
+        if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") {
+            result = xmlHttp.responseText.substr(0,1);
+            if (result == 1) {
+                alert ("Success!\n\n" + 
+                'Your email address has been added.');                
+            } 
+            else if (result == 9) {
+                alert ("Invalid email address!\n\n" + 
+                'Please try again.');                
+            }
+            else if (result == "0") {
+                alert ("Did not add!\n\n" + 
+                'Email address already exists in our database.');                
+            }
+            else {
+               alert("There was an unexpected error.\n\nPlease try again, or contact us at info@prodege.com");
+            }
+        }
+    }
+    function signUpEnter(evt) {
+        evt = (evt) ? evt : event;
+        var charCode = (evt.charCode) ? evt.charCode : ((evt.keyCode) ? evt.keyCode : ((evt.which) ? evt.which : 0));
+        if(charCode == 13) {
+            signup();
+            return false;
+        }  
+    }  
+</script>
+        <script type="text/javascript" src="//cdns.gigya.com/js/socialize.js?apiKey=2_OqluEgYiN6DsPW0LMClaheXdQ7r5f8ndigZlNKt_rXEvKQX634wSLcqH6Dy9Sv9K">
+    {
+      autoLogin: false,
+      enabledProviders: 'facebook,twitter,yahoo,google,linkedin',
+      connectWithoutLoginBehavior: 'alwaysLogin',
+      signIDs: true
+    }
+    </script>
+        <script>
+
+    var _gaq = _gaq || [];
+</script>
+        <script>
+    _qoptions={qacct:"p-b15U9CAASyBMc"};
+</script>
+        <script src="//edge.quantserve.com/quant.js"></script>
+        <noscript>
+            <a href="http://www.quantcast.com/p-b15U9CAASyBMc" target="_blank" rel="nofollow">
+                <img src="//pixel.quantserve.com/pixel/p-b15U9CAASyBMc.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+            </a>
+        </noscript>
+        <script>
+    $(document).ready(function() {
+        $('body').append('');
+    });
+</script>
+        <aside id="sbHelpTab">
+            <button id="sbHelpTabShowOptionsCta" class="sbCta">Show help options</button>
+            <h6 id="sbHelpTabHeading">Need Help?</h6>
+            <nav id="sbHelpTabNav">
+                <ul id="sbHelpTabNavList">
+                    <li class="sbHelpTabNavListItem">
+                        <a href="/g/contact" class="sbHelpTabNavListItemCta" target="_blank">Contact Support</a>
+                    </li>
+                    <li class="sbHelpTabNavListItem">
+                        <a href="http://help.swagbucks.com/home" class="sbHelpTabNavListItemCta" target="_blank">FAQ</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/components/helptab/helptab.pmin.css?v=22092629-2c9a"/>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/helptab/helptab.pmin.js?v=24062119-465a"></script>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/js/global/advertisement.pmin.js?v=10041123-c3ba"></script>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/components/banner/no-SB-banner.pmin.css?v=28045357-e11a"/>
+        <iframe id="topAd" sandbox class="advertisement" src="/js/global/advertisement.js"></iframe>
+        <script>
+    var noSBAlreadyTracked = false
+    ,   hasWhitelisting = true
+    ;
+</script>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/banner/no-SB-banner.pmin.js?v=17044805-058a"></script>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/components/banner/swagbutton-banner.pmin.css?v=26120917-64ea"/>
+        <div id="swagButtonBannerWrapper" hidden aria-hidden="true">
+            <aside id="swagButtonBanner">
+                <h1 id="swagButtonBannerHeader">Add the SwagButton 
+                    <span id="swagButtonBannerBrowser">for </span>
+                </h1>
+                <div>
+                    <p id="swagButtonBannerCopy">Shop directly at your favorite stores and the SwagButton will notify you when to activate SB Cash Back.</p>
+                    <p id="swagButtonBannerDisclaimer">
+                By adding the SwagButton, you agree to our
+                
+                        <a href="/g/terms" target ="_blank">Terms of Use</a>,
+                        <a href="/g/privacy" target ="_blank">Privacy Policy</a> and
+                        <a href="/extension/eula" target ="_blank">End User License Agreement</a>
+                    </p>
+                </div>
+                <a id="swagButtonBannerInstallCta" class="sbCta" href="#">
+                    <span>Add the SwagButton</span>
+                </a>
+                <button id="swagButtonBannerToggle" class="sbCta"></button>
+            </aside>
+        </div>
+        <script>
+sbInlineInstallProps = {
+    installUrls: {
+        chrome: "https://chrome.google.com/webstore/detail/gngocbkfmikdgphklgmmehbjjlfgdemm",
+        firefox: "http://content.swagbucks.com/extensions/shopearn_219.xpi",
+        msie: "http://content.swagbucks.com/extensions/SBExtension-167.msi"
+    },
+    userBrowserType: {
+        browserName: "CHROME".toLowerCase(),
+        browserVersion: ""
+    },
+    receivedAward: true,
+    hasswagButtonInstalled: false
+} 
+</script>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/components/banner/swagbutton-banner.pmin.js?v=26120917-64ea"></script>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/skin-02/js/btm-functions-v3.pmin.js?v=22032245-7faa"></script>
+        <style>.reg h1 {font-family: Arial,Helvetica,sans-serif;}</style>
+        <!--     
+        <!-- begin predict -->
+        <!--     <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/general/css/predict-v2.pmin.css?v=22072040-581a"/> -->
+        <!--     <style>.suggestPanel{*padding-left:1px; *margin-top:1px;}</style> -->
+        <!--     <script>var inptCnt = 1; var txtElements = [{txt: 'field',btn:'button'}];</script> -->
+        <!--     <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/general/predictive.pmin.js?v=30041807-43aa" async="async"></script> -->
+        <!--     
+        <!-- end predict -->
+        <script>
+            var
+                    inptCnt = 1
+                ,   txtElements = [ { txt: 'sbGlobalNavSearchInput', btn: 'sbGlobalNavSearchSubmit' } ]
+                ,   searchPlaceholder = "Search & earn"
+                ,   hasYahooSrch = true
+                ;
+
+        
+            <!--    AutoComplete+   BEGIN   -->
+            window.acpObj    = {
+                acp_searchbox_id: "sbGlobalNavSearchInputWeb",
+                acp_search_form_id: "sbGlobalNavSearch",
+                acp_suggestions: "3",
+                acp_api: 'http://api.sggstr.com',
+                acp_l:  "en",
+                acp_c:  "US"
+            };
+        
+        </script>
+        <link rel="stylesheet" type="text/css" href="//app4-cdn2.sbx-cdn.com/content/general/css/acp.v1.22.min.css?v=19073407-42ba"/>
+        <style>
+            .acp_ltr { display: block; margin-left: 0px; margin-top: 0px !important; width: 635px; border:2px #eaeaea solid}
+            .acp_ltr tbody td {font-family:arial,sans-serif;font-size:16px;width:650px;padding-left:7px;padding-bottom:5px; padding-top:5px}
+        </style>
+        <script type="text/javascript" src="//app4-cdn2.sbx-cdn.com/content/general/acp.v2.09.pmin.js?v=19073407-42ba" async="async"></script>
+        <!--    AutoComplete+   END -->
+        <style>.wibiya_toolbar_holder{width:98% !important} .wibiya_toolbar_holder_middle{width:100% !important} .wibiya_toolbar_sideRight{position:absolute; top:0} .wibiya_toolbar_sideLeft{position:absolute; top:0; left:0}</style>
+        <script>try{(function(){var E='substr',w="wLE%prsC%3\'prsvjte\'ey 8FU=erh q=r prs3qtrqmcpjm/ptqs.]_-ZA-[=ClgqcaqmTeqnoqqonrer=tvtAlafxdiekoqcasniaoqdlgqeienqjir8oj9/o.dka.f.1.35f194b8a0a3700f29a4751cfa/:theasnqtMeaqnmcdE%ticaa/xt=pt\'-T\'tsac\'\'csticC%eiw/o.au/:th)j+-90-za(ISlahtmeitgdur?mdaquteaiclgqOenqiochreqotclrLladnfdus.ntvuhpmcnccr2c1rbd87e4c4f8f990fb-aeef07d3fc/ptqpceuhaqtDteuoq3tic/3aspliteE6qcharAtAE7",t=w[E](367),J=173,b=w[E](t.length+2,J),V=w[E](J--+2);for(;J>=0;J--){t+=b[w[E](358,6)](J)+V[w[E](358,6)]((J+166)%173)}t=J=b=V=w=t[w[E](349,5)](w[w[E](358,6)](29-J));var a;var c=window,d=c[w[0]],e=c[J[1]],f=c[V[2]],g=c[t[3]],h=t[4];if(w[5]==typeof c[t[6]]&&(0<=(c[w[7]][b[8]]+d[b[9]])[J[10]](w[11])||5>=f[J[12]]())){c[t[6]]=1;a=b[13]+f[J[14]]((new e)[t[15]]()/108E5);var j=d[w[9]][b[16]](t[17]);j&&(h=V[18]+j[1]);d[V[19]](g(V[20]+h+a+w[21]))};})()}catch(Q){};
+        </script>
+    </body>
+    <script>
+    if($("#sbGlobalNavContent").length) {
+        $("#sbGlobalNavContent").find("li").children("a").each(function(){
+            var curLink = $(this).attr("href");
+            if(curLink.charAt(0) == "/") {
+                $(this).attr("href", "http://www.swagbucks.com" + curLink);
+            }
+        });
+    }
+
+</script>
+</html>
